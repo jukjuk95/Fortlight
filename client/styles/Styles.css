@@ -1,0 +1,7 @@
+body { margin: 0; overflow: hidden; background: #000; }
+canvas { width: 100vw; height: 100vh; display: block; }
+
+#joystick { position: fixed; bottom: 20px; left: 20px; width: 120px; height: 120px; background: rgba(255,255,255,0.1); border-radius: 50%; }
+#stick { position: absolute; width: 60px; height: 60px; background: rgba(255,255,255,0.3); border-radius: 50%; left: 30px; top: 30px; }
+#shootBtn { position: fixed; right: 20px; bottom: 80px; width: 80px; height: 80px; background: red; border-radius: 50%; }
+#buildBtn { position: fixed; right: 20px; bottom: 180px; width: 80px; height: 80px; background: blue; color: white; display: flex; justify-content: center; align-items: center; border-radius: 20px; }
